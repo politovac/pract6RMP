@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pract6RMP", "pract6RMP.csproj", "{070D424D-F9A6-4E48-8FD1-8D390C84314B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{070D424D-F9A6-4E48-8FD1-8D390C84314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070D424D-F9A6-4E48-8FD1-8D390C84314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070D424D-F9A6-4E48-8FD1-8D390C84314B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{070D424D-F9A6-4E48-8FD1-8D390C84314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070D424D-F9A6-4E48-8FD1-8D390C84314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070D424D-F9A6-4E48-8FD1-8D390C84314B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15283CC5-2B5A-4D8A-8DE3-A60A5BCA7D83}
+	EndGlobalSection
+EndGlobal

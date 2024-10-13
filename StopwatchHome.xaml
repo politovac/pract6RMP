@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pract6RMP.StopwatchHome"
+             Title="Stopwatch">
+    <VerticalStackLayout  Spacing="20">
+        <StackLayout HorizontalOptions="Center"  Margin="10,200,0,0">
+
+            <Label x:Name="timeLabel" Text="00:00:00" FontSize="48"  HorizontalOptions="Center"  />
+
+            <Button Text="Старт" x:Name="Start" Clicked="Start_Clicked"
+                Margin="15" WidthRequest="200" Padding="15" FontSize="20"/>
+            
+            <Button Text="Стоп" IsEnabled="False" x:Name="Stop" Clicked="Stop_Clicked"
+                 Margin="15" WidthRequest="200" Padding="15" FontSize="20"/>
+
+            <Button Text="Сброс" IsEnabled="False" x:Name="Reset" Clicked="Reset_Clicked"
+                Margin="15" WidthRequest="200" Padding="15" FontSize="20" />
+
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
